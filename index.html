@@ -12,32 +12,17 @@
 </head>
 
 <body>
-    <header>
-        <div class="header-img">
-            <div class="header-text">
-                <h1>Twoja Piekarnia</h1>
-                <p>Z nami zawsze świeżo, z nami zawsze smacznie!</p>
-            </div>
-            <div class="header-bg"></div>
-        </div>
-    </header>
-    <nav>
-        <ul>
-            <li><a href="">Strona Główna</a></li>
-            <li><a href="">Usługi</a></li>
-            <li><a href="">Cennik</a></li>
-            <li><a href="">Kontakt</a></li>
-        </ul>
-    </nav>
+    <div w3-include-html="header.html"></div>
+    <div w3-include-html="navigation.html"></div>
     <main>
         <h2 class="about-us-heading">O nas</h2>
         <section class="about-us-section top">
             <div class="about-us-text">
                 <h3>Kochamy wypieki</h3>
                 <p>
-                    Lorem ipsum, dolor sit amet consectetur adipisicing 
-                    elit. Et eius modi corrupti possimus dolorum 
-                    architecto obcaecati earum consectetur eos voluptatum!
+                    Nasza praca to przede wszystkim nasza pasja.
+                    Kochamy pracować przy piecu a z naszymi
+                    wypiekami obchodzimy się jak z własnymi dziećmi.
                 </p>
             </div>
             <div class="about-us-bg">
@@ -47,9 +32,9 @@
             <div class="about-us-text">
                 <h3>Stawiamy na jakość</h3>
                 <p>
-                    Lorem ipsum, dolor sit amet consectetur adipisicing 
-                    elit. Et eius modi corrupti possimus dolorum 
-                    architecto obcaecati earum consectetur eos voluptatum!
+                    Naszym celem jest ciągłe doskonalenie naszych wypieków.
+                    Jesteśmy perfekcjonistami i dążymy do jak najlepszego smaku
+                    i jakości naszych produktów.
                 </p>
             </div>
             <div class="about-us-bg">
@@ -59,25 +44,21 @@
             <div class="about-us-text">
                 <h3>Klient jest dla nas najważniejszy</h3>
                 <p>
-                    Lorem ipsum, dolor sit amet consectetur adipisicing 
-                    elit. Et eius modi corrupti possimus dolorum 
-                    architecto obcaecati earum consectetur eos voluptatum!
+                    Jesteśmy piekarnią z tradycjami, istniejemy już od ponad 20 lat i od
+                    zawsze największą nagrodą był dla nas uśmiech zadowolonych
+                    klientów.
                 </p>
             </div>
             <div class="about-us-bg">
             </div>
         </section>
     </main>
-    <footer>
-        <p>
-            Artur Babkiewicz 2020
-            <span class="foot-icon">
-                <a href=""><i class="fab fa-facebook"></i></a>
-                <a href=""><i class="fab fa-instagram-square"></i></a>
-                <a href=""><i class="fab fa-twitter-square"></i></a>
-            </span>
-        </p>
-    </footer>
+    <div w3-include-html="footer.html"></div>
+
+    <script src="js/header.js"></script>
+    <script>
+        includeHTML();
+    </script>
 </body>
 
 </html>

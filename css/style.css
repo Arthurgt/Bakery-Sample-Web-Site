@@ -74,6 +74,12 @@ section {
     border-bottom-right-radius: 50px;
 }
 
+.contact-info {
+    position: relative;
+    text-align: center;
+    height: 50vh;
+}
+
 .top {
     background-image: url('../img/home-main-section-top.jpg');
 }
@@ -108,6 +114,10 @@ section {
     width: 100%;
     background-color: rgba(51, 51, 51, .8);
     border-bottom-right-radius: 50px;
+}
+
+.services li {
+    font-size: 1.6rem;
 }
 
 /* NAVIGATION */
@@ -150,7 +160,7 @@ footer {
 }
 
 .foot-icon {
-    margin-left: 50px;
+    margin-left: 10px;
 }
 
 .foot-icon i {
