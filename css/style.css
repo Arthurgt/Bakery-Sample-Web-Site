@@ -13,7 +13,7 @@ body {
 .header-img {
     position: relative;
     height: 260px;
-    background-image: url('/img/head-bakery.jpg');
+    background-image: url('../img/head-bakery.jpg');
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -30,12 +30,12 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
     color: #fff;
+    text-shadow: 3px 3px 5px black;
+    text-transform: uppercase;
 }
 
 header h1 {
     margin-bottom: 10px;
-    text-transform: uppercase;
-    text-shadow: 3px 3px 5px black
 }
 
 /* NAVIGATION */
@@ -62,5 +62,31 @@ nav li a {
 }
 
 nav li a:hover {
+    color: rgb(0,134,243);
+}
+
+/* FOOTER */
+
+footer {
+    height: 80px;
+    color: #fff;
+    background-color: #333;
+    line-height: 80px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.foot-icon {
+    margin-left: 50px;
+}
+
+.foot-icon i {
+    padding: 0 5px;
+    color: #fff;
+    font-size: 24px;
+    transition: color .3s;
+}
+
+.foot-icon i:hover {
     color: rgb(0,134,243);
 }
