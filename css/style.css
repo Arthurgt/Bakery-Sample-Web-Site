@@ -6,6 +6,7 @@
 
 html {
     font-size: 10px;
+    min-width: 280px;
 }
 
 body {
@@ -50,8 +51,9 @@ header h1 {
 /* MAIN */
 
 main {
-    width: 60%;
+    width: 70%;
     margin: 50px auto;
+    position: relatvie;
 }
 
 .about-us-heading {
@@ -75,9 +77,24 @@ section {
 }
 
 .contact-info {
-    position: relative;
-    text-align: center;
+    position: realtive;
+    text-align: left;
     height: 50vh;
+}
+
+.contact-info p {
+    font-size: 3rem;
+    padding-top: 10px;
+}
+
+.services-section {
+    position: realtive;
+    height: 50vh;
+}
+
+.services-section p {
+    font-size: 3rem;
+    padding-top: 10px;
 }
 
 .top {
@@ -95,7 +112,7 @@ section {
 .about-us-text {
     position: absolute;
     bottom: 20px;
-    padding: 20px 40px;
+    padding: 10px 30px;
     color: #fff;
     text-align: center;
     z-index: 1;
@@ -151,10 +168,10 @@ nav li a:hover {
 /* FOOTER */
 
 footer {
-    height: 80px;
+    height: 90px;
     color: #fff;
     background-color: #333;
-    line-height: 80px;
+    line-height: 90px;
     text-align: center;
     font-size: 18px;
 }
@@ -172,4 +189,49 @@ footer {
 
 .foot-icon i:hover {
     color: rgb(0,134,243);
+}
+
+
+@media screen and (min-width: 1000px) {
+    html {
+      font-size: 10px;
+    }
+
+    nav li a {
+      padding: 0 50px; 
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    html {
+      font-size: 8px;
+    }
+}
+
+@media screen and (max-width: 805px) {
+
+    nav li a {
+        padding: 0 10px; 
+    }
+}
+
+@media screen and (max-width: 480px) {
+    html {
+        font-size: 6px;
+    }
+
+    nav {
+        height: 160px;
+    }
+
+    nav li {
+        display: block;
+        height: 40px;
+    }
+}
+
+@media screen and (max-width: 340px) {
+    html {
+        font-size: 5px;
+    }
 }
